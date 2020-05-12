@@ -1179,6 +1179,11 @@ RESPONSIVE
     height: 500px;
   }
 
+  .mcwidget-embed {
+margin-right: 15%;
+
+  }
+
 }
 
 
@@ -1196,6 +1201,11 @@ RESPONSIVE
     height: 400px;
   }
 
+  .mcwidget-embed {
+  margin-right: 10%;
+
+  }
+
 }
 
 
@@ -1206,6 +1216,11 @@ RESPONSIVE
 
   .headline__title>h1 {
     max-width: 70%;
+  }
+
+  .mcwidget-embed {
+margin-right: 10%;
+
   }
 }
 
