@@ -5,7 +5,7 @@
 
 [class*='c-']:after, [class*='c0-']:after, [class*='cm0-']:after { clear:both; display:table; width:inherit; position:inherit; }
 
-[class*='c-'] > *, [class*='c0-'] > * { margin-left:2%; margin-right:2%; }
+[class*='c-'] > *, [class*='c0-'] > * { margin-left:1%; margin-right:1%; }
 [class*='c-'] > *, [class*='c0-'] > *, [class*='cm0-'] > * { float:left; display:inline-block; }
 
 .c-xx-1 > *, .c0-xx-1 > * { width:98%; }

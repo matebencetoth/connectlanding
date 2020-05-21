@@ -1132,6 +1132,12 @@ MOBIL NAV
 MAILCHIMP
 ===========================*/
 
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
 #mailchimp {
 width: 40%;
 
@@ -1203,7 +1209,6 @@ width: 40%;
 
 .mc-table {
   position: relative;
-  left: 10%;
   width: 700px;
 }
 
@@ -1213,12 +1218,15 @@ input[type="submit"] {
   border-color: #ED1E79;
   font-weight: 600;
   color: white;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -khtml-border-radius: 30px 30px 30px 30px;
+  -o-border-radius: 30px 30px 30px 30px;
   cursor: pointer;
   font-size: 20px;
   padding: 8px 0;
   margin-top: 5px;
-  cursor: pointer;
   transition: all 0.23s ease-in-out 0s;
 }
 
@@ -1239,6 +1247,12 @@ input[type="submit"]:hover {
   margin-right: 0;
 }
 
+.mc-name {
+  width: 130px;
+  margin-left: 0;
+  margin-right: 8%;
+}
+
 .mc-email {
   width: 280px;
   margin-left: 0;
@@ -1246,30 +1260,29 @@ input[type="submit"]:hover {
 }
 
 input[type="text"] {
-  border-radius: .3rem;
-  -moz-border-radius: .3rem;
-  -webkit-border-radius: .3rem;
-  -khtml-border-radius: .3rem;
-  -o-border-radius: .3rem;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -khtml-border-radius: 30px 30px 30px 30px;
+  -o-border-radius: 30px 30px 30px 30px;
   border: 1px solid #ED1E79;
   background: 0;
   vertical-align: middle;
-  margin: 5px 10px 10px 0;
+  margin: 5px 10px 5px 0;
   padding: 10px;
-  box-sizing: border-box;
-  display: inline-block;
-  vertical-align: top;
-  width: 110%;
+  width: 140%;
+  height: 50px;
 }
 
 input[type="email"] {
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
-  -khtml-border-radius: 20px 20px 20px 20px;
-  -o-border-radius: 20px 20px 20px 20px;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -khtml-border-radius: 30px 30px 30px 30px;
+  -o-border-radius: 30px 30px 30px 30px;
   border: 1px solid #ED1E79;
-  background: 0 vertical-align: middle;
+  background: 0;
+  vertical-align: middle;
   margin: 5px 10px 5px 0;
   padding: 10px;
   width: 140%;
@@ -1303,9 +1316,9 @@ RESPONSIVE
   }
 
 .mc-table {
-  width: 500px;
+  width: 700px;
   position: relative;
-  left: 25%;
+  left: 15%;
 }
 
 input[type="submit"] {
@@ -1328,14 +1341,11 @@ input[type="submit"] {
   }
 
   .mc-table {
-width: 500px;
-
+width: 700px;
+position: relative
+right: 10%;
   }
 
-  .mc-tr {
-
-
-  }
 
   input[type="submit"] {
     width: 120%;
@@ -1391,27 +1401,6 @@ width: 500px;
   .mc-email {
     width: 300px;
   }
-
-  input[type="text"] {
-    border-radius: .3rem;
-    -moz-border-radius: .3rem;
-    -webkit-border-radius: .3rem;
-    -khtml-border-radius: .3rem;
-    -o-border-radius: .3rem;
-    border: 1px solid #ED1E79;
-    background: 0;
-    vertical-align: middle;
-    margin: 5px 10px 10px 0;
-    padding: 10px;
-    box-sizing: border-box;
-    display: inline-block;
-    vertical-align: top;
-    width: 110%;
-  }
-
-
-
-
 
 }
 
@@ -1487,72 +1476,37 @@ width: 100%;
 
 
 }
-  .mc-table {
-    width: 100%;
-    position: relative;
-    left: auto;
-    margin-left: 0;
 
-  }
+.mc-table {
+width: 100%;
+position: relative
+right: 0;
+}
 
 .mc-tr {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  left: 0;
+  width: 620px;
+}
+
+input[type="submit"] {
+  wrap;
+  width: 120%;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover {
+  background: #b60d57;
+  border-color: #b60d57;
+}
+
+.mc-name {
+  width: 120px;
+  margin-right: 8%;
 }
 
 .mc-email {
-  width: 100%;
-  /* Firefox */
-  display: -moz-box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  /* Safari and Chrome */
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  /* W3C */
-  display: box;
-  box-pack: center;
-  box-align: center;
+  width: 180px;
+  margin-right: 12%;
 }
-
-input[type="email"] {
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
-  -khtml-border-radius: 20px 20px 20px 20px;
-  -o-border-radius: 20px 20px 20px 20px;
-  border: 1px solid #ED1E79;
-  background: 0 vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  width: 100%;
-  height: 50px;
-  /* Firefox */
-  display: -moz-box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  /* Safari and Chrome */
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  /* W3C */
-  display: box;
-  box-pack: center;
-  box-align: center;
-}
-
-
-.mc-button {
-  width: 250px;
-}
-  input[type="submit"] {
-    width: 100%;
-    position: relative;
-    left: 25%;
-  }
 
   .feature>li {
     height: 400px;
@@ -1737,6 +1691,48 @@ input[type="email"] {
 
   .video-1 {
     width: 90%;
+  }
+
+  #mailchimp {
+  width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+
+
+  }
+
+  .mc-table {
+  width: 100%;
+  position: relative
+  right: 0;
+  }
+
+  .mc-tr {
+    width: 375px;
+    position: relative;
+    left: auto;
+
+  }
+
+  input[type="submit"] {
+    wrap;
+    width: 120%;
+    font-size: 15px;
+  }
+
+  input[type="submit"]:hover {
+    background: #b60d57;
+    border-color: #b60d57;
+  }
+
+  .mc-name {
+    width: 120px;
+    margin-right: 8%;
+  }
+
+  .mc-email {
+    width: 180px;
+    margin-right: 12%;
   }
 
 }
