@@ -1402,7 +1402,6 @@ right: 10%;
     border-color: #fb397d;
     font-weight: 600;
     color: white;
-    border-radius: 30px 30px 30px 30px;
     cursor: pointer;
     font-size: 20px;
     width: 40%;
@@ -1433,7 +1432,9 @@ right: 10%;
 
 }
 
+
 @media (max-width: 768px) {
+
   [data-action='nav-button'] {
     display: inline-block;
   }
