@@ -1779,6 +1779,7 @@ RESPONSIVE
     text-align: center;
     margin-top: -10%;
     position: relative;
+    top: 
     z-index: 92;
   }
 
@@ -1818,7 +1819,7 @@ input[type="submit"] {
     text-align: center;
     margin-top: -25%;
     position: relative;
-    top: 50px;
+    top: 0px;
     z-index: 92;
   }
 
